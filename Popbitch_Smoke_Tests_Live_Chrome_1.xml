@@ -6,6 +6,7 @@
     <classes>
   
    	<class name="Stepdef.GranthamLive.GRASMO01_Grantham_register_from_first_use_notice"/>
+   	 <class name="Stepdef.GranthamLive.GRASMO02_Grantham_register_from_wallet"/>
   
    
    	
