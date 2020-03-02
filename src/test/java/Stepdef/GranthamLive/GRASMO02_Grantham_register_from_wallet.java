@@ -41,13 +41,8 @@ public class GRASMO02_Grantham_register_from_wallet {
 			Popbitch_Logged_Out_Wallet w1= new Popbitch_Logged_Out_Wallet(driver);
 			w1.Click_On_popbitch_agate_poster();
 			w1.Click_On_popbitch_wallet_register_button();			
-			WebDriverWait wait = new WebDriverWait(driver, 20);
-			wait.until(ExpectedConditions.visibilityOfElementLocated(By.id("email")));	
-			String reg_Page_url= driver.getCurrentUrl();
-			if(reg_Page_url.contains("sign"))
-			{
-				System.out.println("Clicking on create wallet opened registration page");
-			}
+			Thread.sleep(20000);
+			
 			System.out.println("1 of 5");
 	} 
 					
