@@ -4,7 +4,7 @@
   <test  name="Signup_from_FUN" >
    <parameter name="browser" value="chrome" />
     <classes> 
- <class name="Stepdef.GranthamLive.GRASMO01_Grantham_register_from_first_use_notice"/>   	 
+ <class name="Stepdef.GranthamLive.GRASMO02_Grantham_register_from_wallet"/>   	 
     </classes>
   </test> 
   </suite>		
